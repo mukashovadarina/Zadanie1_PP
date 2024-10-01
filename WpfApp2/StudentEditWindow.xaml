@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp2.StudentEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Редактирование студента" Height="219" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="Имя"></TextBlock>
+        <TextBox x:Name="FirstNameTextBox" Margin="0,5"/>
+        <TextBlock Text="Фамилия"></TextBlock>
+        <TextBox x:Name="LastNameTextBox" Margin="0,5"/>
+        <TextBlock Text="Группа"></TextBlock>
+        <TextBox x:Name="GroupTextBox" Margin="0,5"/>
+        <Button Content="Сохранить" Click="SaveButton_Click" Margin="0,10"/>
+    </StackPanel>
+</Window>
